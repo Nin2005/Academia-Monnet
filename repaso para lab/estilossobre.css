@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sansita', sans-serif;
+    background-color: #F8EA3C;
+}
+
+
+nav{
+    background-color: #242754;
+    float: right;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.isologo{
+    text-align: left;
+    margin-left: 25px;
+    max-height: 200;
+}
+
+.xd{
+    text-align: left;
+    margin-left: 500px;
+    max-height: 200;
+}
+
+.isologo img{
+    width: 400px;
+    height: 55px;
+}
+
+nav > a{
+    color: #F8EA3C ;
+    list-style: none;
+    padding: 7px 13px;
+    float: left;
+    text-decoration: none;
+    display: flex;
+    margin-right: 30px;
+    border-radius: 3px;
+    margin: 0 5px;
+    display: block;
+    text-transform: uppercase;
+    
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color: #F59D36;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+
+.titulo {
+    color: #242754 ;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: double;
+    font-family: 'Sansita', sans-serif;
+}
+
+.titulo span{
+    color: #F8EA3C ;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: double;
+    font-family: 'Sansita', sans-serif;
+}
+
+
+.titulo2 {
+    color: #F8EA3C ;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: double;
+    font-family: 'Sansita', sans-serif;
+}
+
+nav > a{
+    color: #F8EA3C ;
+    list-style: none;
+    padding: 7px 13px;
+    float: left;
+    text-decoration: none;
+    display: flex;
+    margin-right: 30px;
+    border-radius: 3px;
+    margin: 0 5px;
+    display: block;
+    text-transform: uppercase;
+    
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color: #F59D36;
+    width: 50%;
+}
+
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 28%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 50%;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    width: 75%;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+
+/* Clients */
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #4d0686;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+}
+
+.cards .card img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 80%;
+    color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+footer{
+    background: #242754;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #F59D36;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
