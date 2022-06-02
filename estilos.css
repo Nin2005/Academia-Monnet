@@ -1,0 +1,436 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sansita', sans-serif;
+    background-color: #242754;
+}
+
+
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.titulo {
+    color: #F8EA3C ;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: double;
+    font-family: 'Sansita', sans-serif;
+}
+.categoria {
+    color: #F8EA3C ;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: 'Sansita', sans-serif;
+    margin-left: 5px;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 600px;
+    background: #bc4e9c;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0), hsla(317, 45%, 52%, 0)), url(titulo.png.png);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(340, 95%, 50%, 0), hsla(317, 45%, 52%, 0)), url(titulo.png.png);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+nav{
+    background-color: #242754;
+    float: right;
+    height: 75px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.isologo{
+    text-align: left;
+    margin-left: 25px;
+    max-height: 300;
+}
+
+.xd{
+    text-align: left;
+    margin-left: 500px;
+    max-height: 200;
+}
+
+.isologo img{
+    width: 400px;
+    height: 55px;
+}
+
+nav > a{
+    color: #F8EA3C ;
+    list-style: none;
+    padding: 7px 13px;
+    float: left;
+    text-decoration: none;
+    display: flex;
+    margin-right: 30px;
+    border-radius: 3px;
+    margin: 0 5px;
+    display: block;
+    text-transform: uppercase;
+    
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color: #F59D36;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    margin: 20px;
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color:#fff;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.wave2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About us */
+
+/* Galeria */
+
+
+.portafolio{
+    background: #f2f2f2;
+}
+
+.galeria-port{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.imagen-port{
+    width: 18%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 px 0 rgba(255, 198, 41, 0.801);
+}
+
+.imagen-port > img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    margin: 10px;
+}
+
+
+.hover-galeria img{
+    width: 50px;
+}
+
+.hover-galeria p{
+    color: #fff;
+}
+
+.imagen-port:hover .hover-galeria{
+    transform: scale(1);
+}
+
+/* Clients */
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards .card{
+    background: #fff;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 rgb(255, 153, 0);
+}
+
+.cards .card img{
+    width: 200px;
+    height: 190px;
+    display: block;
+    margin-top: 5px;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: #242754;
+}
+
+.cards .card > .contenido-texto-card p{
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+/*  Our team */
+
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+
+.servicio-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 90%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+}
+
+/* footer */
+
+footer{
+    background: #414141;
+    padding: 60px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ccc;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+}
+
+@media screen and (max-width:900px){
+    header{
+        background-position: center;
+    }
+
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+
+    .imagen-about-us{
+        width: 90%;
+    }
+
+    /* Galeria */
+
+    .imagen-port{
+        width: 44%;
+    }
+
+    /* Clientes */
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card{
+        width: 90%;
+    }
+
+    .cards .card:first-child{
+        margin-bottom: 30px;
+    }
+
+    /* servicios */
+
+    .servicio-cont{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .servicio-ind{
+        width: 100%;
+        text-align: center;
+    }
+
+    .servicio-ind:nth-child(1), .servicio-ind:nth-child(2){
+        margin-bottom: 60px;
+    }
+
+    .servicio-ind img{
+        width: 90%;
+    }
+}
+
+.contenedor-footer{
+    border-bottom: 1px solid #242754;
+}
+
+
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .textos-header h1{
+        font-size: 35px;
+    }
+
+    .textos-header h2{
+        font-size: 20px;
+    }
+
+    /* ABOUT US */
+
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 95%;
+    }
+
+    /* Galeria */
+
+    .imagen-port{
+        width: 95%;
+    }
+
+    /* Clients */
+
+    .cards .card{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards .card img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Footer */
+
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+        color: #242754;
+    }
+
+    .content-foo h4{
+        border: none;
+    }
+
+    .content-foo p{
+        color: #242754 ;
+        border-bottom: 1px solid #242754;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
+}
+
+footer{
+    background-color: #F8EA3C;
+}
